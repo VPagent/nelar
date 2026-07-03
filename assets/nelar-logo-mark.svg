@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="gradient" x1="96" y1="96" x2="416" y2="416" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#D46BFF"/>
+      <stop offset="100%" stop-color="#4CCBFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hexagon -->
+  <polygon
+    points="256,48 414,139 414,373 256,464 98,373 98,139"
+    fill="none"
+    stroke="url(#gradient)"
+    stroke-width="18"
+    stroke-linejoin="round"/>
+
+  <!-- Letter N -->
+  <path
+    d="
+      M180 350
+      V162
+      H212
+      L300 292
+      V162
+      H332
+      V350
+      H300
+      L212 220
+      V350
+      Z"
+    fill="url(#gradient)"/>
+
+</svg>
